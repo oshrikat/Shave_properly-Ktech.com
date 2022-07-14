@@ -1,0 +1,362 @@
+﻿
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    filter: brightness(10px);
+}
+
+img {
+    filter: brightness(10px);
+}
+
+
+.header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    box-shadow: 10px 0px 10px 10px;
+}
+
+nav {
+}
+
+.div1 ul li {
+    list-style: none;
+}
+
+.div1 ul a li {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div1 ul li a:hover {
+}
+
+
+
+.div1 {
+    color: white;
+}
+
+
+.nevigation {
+    float: right;
+    width: 7%;
+    padding: 2% 1.5%;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.nevigation_more1 {
+    float: right;
+    width: 5%;
+    padding: 2% 2%;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+
+
+
+#nevigation {
+    float: right;
+    width: 10%;
+    position: absolute;
+    margin-right: 83%;
+    margin-top: -1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Acount {
+    float: right;
+    width: 10%;
+    padding: 2% 0%;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 0.5px dotted white;
+}
+
+/*
+             
+                */
+
+.nevigation:hover {
+    border-bottom: 1px dashed white;
+}
+
+.nevigation_more1:hover {
+    border-bottom: 1px dashed white;
+}
+
+.nevigation_more2:hover {
+    border-bottom: 1px dashed white;
+}
+
+
+
+
+
+#pic {
+}
+
+
+
+#shaver {
+}
+
+#hr1 {
+    border: 2px solid white;
+    margin-top: 0px;
+}
+
+#title {
+    margin-top: 0px;
+    font-size: 25px;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: aliceblue;
+}
+
+    #title h1 {
+        margin-right: 750px;
+    }
+
+
+#keyframe {
+   margin:0.5% auto ;
+    width: 100%;
+    height: 85vh;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    animation: anim1 ease-in-out 40s infinite;
+}
+
+@keyframes anim1 {
+    0% {
+        background-image: url('pictures/תמונה להרשמה.jpg');
+    }
+
+    10% {
+        background-image: url('pictures/אליהו בודר אתרוג.jpg');
+    }
+
+    20% {
+        background-image: url('pictures/הרב אלישיב צריך לפרסם את חומרת איסור הגילוח כתבה יתד דף 2 (2).jpg');
+    }
+
+    30% {
+        background-image: url('pictures/תמונת תצוגה.jfif');
+    }
+
+    40% {
+        background-image: url(pictures/קייטק.jpg);
+    }
+
+    50% {
+        background-image: url('pictures/מכונת גילוח 3.jfif');
+    }
+    60% {
+        background-image: url('pictures/מכונת גילוח קייטק 1.jfif');
+    }
+
+    70% {
+        background-image: url('pictures/תספורת קייטק.png');
+    }
+
+    80% {
+        background-image: url('pictures/הרב אלישיב צריך לפרסם את חומרת איסור הגילוח כתבה יתד דף 2 (2).jpg');
+    }
+
+    90% {
+        background-image: url(pictures/קייטק.jpg);
+    }
+
+    100% {
+        background-image: url('pictures/תמונה להרשמה.jpg');
+    }
+}
+
+
+.botton {
+    margin-top: 0%;
+}
+
+    .botton #underpage {
+        background-color: black;
+        width: 86.8%;
+        height: 100px;
+        color: white;
+        padding: 100px;
+    }
+
+#contact_us {
+    margin-right: 10%;
+}
+
+#auto {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.pictures {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+    .pictures #firstpic:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+
+
+#pages {
+    margin-top: -10.5%;
+    margin-right: 35%;
+    position: relative;
+}
+
+#social {
+    margin-top: -4%;
+    margin-right: 60%;
+    position: relative;
+}
+
+.fa {
+    font-size: 500%;
+    text-align: center;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 20%;
+    background: #3B5998;
+    color: white;
+    margin-right: 1%;
+    transform: translate(0%,100%)
+}
+
+.fa-youtube {
+    background: darkred;
+    color: white;
+}
+
+.fa-instagram {
+    background: #9c258e;
+    color: white;
+}
+
+#ktech {
+    height: 90%;
+    width: 12%;
+    transform: translate(-490%,-150%)
+}
+
+#ALLRIGHTS {
+    font-size: 15px;
+    transform: translate(-380%,-150%);
+    position: absolute;
+}
+/*
+height:90%;
+width:12%;
+transform:translate(-415%,-40%)*/
+#h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Guttman Logo1';
+}
+
+
+h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#video2{
+    margin-top:2%;
+    
+}
+#video_div{
+    padding:5%;
+}
+
+#firstVD {
+    width: 600px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    padding: 3%;
+  
+    border-radius: 10%;
+}
+#secondVD {
+   width: 600px;
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50%;
+    padding: 1%;
+    margin-top: -29%;
+    border-radius:5%;
+
+}  
+
+
+#video_div #titleOfVideos{
+    margin:auto;
+}
+
+
+
+#titleOfVideos {
+    text-align: center;
+    font-family: 'Guttman Logo1';
+    font-size: 40px;
+    width: 10%;
+    border-radius:10%;
+    border-bottom: 0.5px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: -10px;
+}
+
+#nextcolor{
+    background-color:#EEE;
+    border-radius:1%;
+    box-shadow:5px 2px 5px 5px gray;
+}

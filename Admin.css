@@ -1,0 +1,382 @@
+﻿
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+   font-family:Calibri;
+}
+
+html{
+}
+a {
+    text-decoration: none;
+  color:white;
+   
+}
+
+body {
+  
+}
+
+
+.header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    box-shadow: 10px 0px 10px 10px;
+}
+
+nav {
+  
+}
+
+.div1 ul li {
+    list-style: none;
+}
+
+.div1 ul a li {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.div1 ul li a:hover {
+}
+
+
+
+.div1 {
+
+    color: white;
+}
+
+
+.nevigation {
+    float: right;
+    width: 7%;
+    padding: 2% 1.5%;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.nevigation_more1 {
+    float: right;
+    width: 5%;
+    padding: 2% 2%;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 1%;
+
+}
+
+
+
+#nevigation {
+    float: right;
+    width: 10%;
+    position: absolute;
+    margin-right: 83%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Acount {
+    float: right;
+    width: 13%;
+    padding: 2% 0%;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border:0.5px dotted white;
+}
+
+    /*
+             
+                */
+
+    .nevigation:hover {
+        border-bottom: 1px dashed white;
+    }
+.nevigation_more1:hover {
+    border-bottom: 1px dashed white;
+}
+.nevigation_more2:hover {
+    border-bottom: 1px dashed white;
+}
+
+
+
+
+
+#shaver {
+}
+
+/*#hr1 {
+    border: 1px solid white;
+    margin-top:0%;
+    width:100%;
+}*/
+
+.part1 {
+    height: 900px;
+    width:100%;
+ 
+}
+
+
+#middle2 {
+    height: 320px;
+    width: 100%;
+    background-color: lightgray;
+
+}
+
+    #middle2 title_homePage {
+    }
+
+#article {
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    font-family: David;
+    font-size: 23px;
+  
+}
+
+
+.botton {
+    margin-top: 0%;
+
+}
+
+    .botton #underpage {
+        background-color: black;
+        width: 86.8%;
+        height: 100px;
+        color: white;
+        padding: 100px;
+        float: right;
+    }
+
+
+.pictures {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+    .pictures #firstpic:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+
+   
+
+
+#pages {
+    margin-top: -10.1%;
+    margin-right: 26%;
+    position:relative;  
+}
+
+
+
+
+h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.register {
+}
+
+.register_form {
+    margin: 10% auto;
+    background-color: whitesmoke;
+    height: 450px;
+    width: 80%;
+    
+}
+
+.register_inputs {
+    text-align: right;
+    margin:-1.5% 33% ;
+}
+
+#firstname {
+    border: none;
+    padding-right: 2%;
+    border-radius: 5px;
+    width: 400px;
+    height: 33px;
+    outline: none;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left : 1px solid gray;
+    border-right-width:3px;
+    border-left-width:3px;
+    border-bottom-width:3px;
+    transition-duration:0.5s;
+}
+
+#lastname {
+    border: none;
+    padding-right: 2%;
+    border-radius: 5px;
+    width: 400px;
+    height: 33px;
+    outline: none;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    transition-duration: 0.5s;
+}
+
+#pass {
+    border: none;
+    padding-right: 2%;
+    border-radius: 5px;
+    width: 400px;
+    height: 33px;
+    outline: none;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    transition-duration: 0.5s;
+}
+
+#email {
+    border: none;
+    padding-right: 2%;
+    border-radius: 5px;
+    width: 400px;
+    height: 33px;
+    outline: none;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    transition-duration: 0.5s;
+}
+
+
+.second_row {
+}
+
+#giluah{
+    font-size:38px;
+    text-align:center;
+}
+
+#continue{
+    color:#808080;
+}
+
+#submit {
+    border: 1px dotted gray;
+    border-radius: 10%;
+    padding: 2%;
+    cursor: pointer;
+    background: none;
+    display: flex;
+    margin: -0.5% auto;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    transition-duration: 2s;
+}
+
+    #submit:hover {
+        transition-duration: 2s;
+        padding: 2.5%;
+        font-size:14.5px;
+    }
+
+#Log_In {
+    position: absolute;
+    display: flex;
+    right: 68%;
+    margin-top: -15%;
+    font-size: 27px;
+    font-family: Calibri;
+    text-align-last: center;
+    color: black;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-bottom: 2px dashed black;
+    border-top: 2px dashed black;
+}
+#Log_In a{
+    color:gray;
+    text-decoration-line:none;
+}
+
+#Contact a{
+    color:gray;
+    text-decoration-line:none;
+}
+
+#Contact {
+    position: absolute;
+    display: flex;
+    right: 14%;
+    margin-top: -15%;
+    font-size: 27px;
+    font-family: Calibri;
+    text-align-last: center;
+    color: black;
+    padding-bottom:1%;
+    padding-top:1%;
+    border-bottom:2px dashed black;
+    border-top:2px dashed black;
+}
+
+#my_survey{
+   font-size:150%;
+  
+    margin:5% auto;
+    background:none;
+    padding:2%;
+    border-radius:1%;
+}
+#survey {
+    height: auto;
+    background-color: #e6e9f0;
+    border: 0.5px dashed white;
+    padding: 1%;
+    border-radius: 1%;
+    text-align: center;
+    
+    box-shadow: 1px 5px 10px 10px #f6f6f8;
+}

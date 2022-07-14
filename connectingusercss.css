@@ -1,0 +1,126 @@
+﻿body {
+    background: #9fa8a3;
+    font-family: Calibri;
+}
+
+#Form_Connect {
+   
+    height: 40vh;
+    width: 50%;
+    display:flex;
+    margin: 2%  auto;
+    justify-content:center;
+    box-shadow: 0px 5px 50px 50px #808080;
+   
+    position:relative;
+    transform:translate(0%, -90%);
+}
+
+#Form_Connect #connect {
+    display: flex;
+   flex-direction:row;
+   margin:auto 5%;
+}
+
+#firstname {
+    border: none;
+    padding-right: 2%;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    transition-duration: 0.5s;
+}
+
+#pass {
+    border: none;
+    padding-right: 2%;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    transition-duration: 0.5s;
+}
+
+#email {
+    border: none;
+    padding-right: 2%;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    transition-duration: 0.5s;
+   
+}
+
+#button_connect {
+    border: none;
+ display:flex;
+  text-align:center;
+  justify-content:center;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    font-weight: 700;
+
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    transition-duration: 0.5s;
+    cursor:pointer;
+}
+
+#colum_1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+   
+}
+
+    #colum_1 #button_connect {
+        display: flex;
+        margin: auto;
+    }
+
+#error {
+    position:relative;
+    z-index:2;
+    transform: translate(0%, -400%);
+}
+
+
+
+
+
+
+
+
